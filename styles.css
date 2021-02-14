@@ -1,0 +1,151 @@
+.nav-link{
+    color: white;
+}
+.picture{
+    position: relative;
+    left: 350px;
+}
+.carousel-item img{
+    height: 320px;
+    max-width: 100%;
+}
+.container{
+    margin-top: 20px;
+}
+.nav{
+    position:relative;
+    bottom:67px;
+}
+#picli{
+    position:relative;
+    bottom:13px;
+}
+nav{
+    height: 155px;
+}
+.para{
+    width: 266px;
+}
+.imap img{
+    height: 165px;
+    width: 266px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.imap img:hover{
+    box-shadow: 5px 5px 10px turquoise;
+}
+.info{
+    margin-top: 50px;
+    
+}
+.last{
+    margin-bottom: 10px;
+}
+.descriptperso p{
+    text-align: center;
+    position: relative;
+    right: 160px;
+}
+.perso2{
+    position: relative;
+    left: 877px;
+    bottom: 40px;
+   
+}
+.perso2 p{
+    display: inline;
+}
+.ph1 img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: 109px;
+}
+.ph2 img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left:109px;
+}
+#foot{
+    display: flex;
+    background-image: url("images/sable.jpg");
+    background-repeat: no-repeat;
+    height: 220px;
+    background-size: 100%;
+}
+@media (max-width: 640px) {
+   .picture{
+       display:none;
+   }
+   .nav-item{
+       margin-top:-15px ;
+   }
+    }
+    #foot img{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    #foot iframe{
+        position: relative;
+        top: 20px;
+        left: 40px;
+    }
+    #foot h2{
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    #coco{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 60px;
+        top: 20px;
+        line-height: 115%;
+        color: rgb(0, 0, 0);
+    }
+    .coor{
+        text-transform: uppercase;
+    }
+    #rsociaux{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 80px;
+        
+    }
+    #rsociaux a{
+        text-decoration: none;
+        position: relative;
+        top: 2px;
+        left: 10px;
+        color: black;
+    }
+    #rsociaux img{
+        margin-bottom: 20px;
+    }
+    #rsociaux #tweet{
+        position: relative;
+        left: 15px;
+    }
+    #rsociaux #fb{
+        position: relative;
+        left: 6px;
+    }
+    #pirate{
+        display:flex;
+        flex-direction:column ;
+        text-align: center;
+        position: relative;
+        left: 180px;
+        top: 20px;
+        line-height: 115%;
+        color: black;
+    }
+
+
