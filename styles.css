@@ -47,7 +47,7 @@ nav{
     position: relative;
     right: 160px;
 }
-.perso2{
+/*.perso2{
     position: relative;
     left: 877px;
     bottom: 40px;
@@ -55,7 +55,7 @@ nav{
 }
 .perso2 p{
     display: inline;
-}
+}*/
 .ph1 img{
     border-radius: 50%;
     height: 100px;
@@ -147,5 +147,14 @@ nav{
         line-height: 115%;
         color: black;
     }
+    @media (min-width: 1024px) and (max-width: 1600px){
+     .perso2{
+         position:relative;
+         left:13.5%;
+         bottom:40px;
 
-
+     }
+        
+     
+    }
+    
