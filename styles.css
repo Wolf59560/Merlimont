@@ -1,3 +1,6 @@
+.identity img{
+    display: none;
+}
 .nav-link{
     color: white;
 }
@@ -10,7 +13,10 @@
     max-width: 100%;
 }
 .container{
-    margin-top: 20px;
+    width:93%;
+    position: relative;
+    right: 3%;
+    margin-top:5%;
 }
 .nav{
     position:relative;
@@ -28,16 +34,18 @@ nav{
 }
 .imap img{
     height: 165px;
-    width: 266px;
+    width: 240px;
     margin-right: 40px;
     border-radius: 10px;
+    margin-bottom: 5px;
 }
 .imap img:hover{
     box-shadow: 5px 5px 10px turquoise;
 }
 .info{
-    margin-top: 50px;
-    
+    margin-top: 10px;
+    flex-direction: column;
+    margin-left: 6%;
 }
 .last{
     margin-bottom: 10px;
@@ -45,7 +53,14 @@ nav{
 .descriptperso p{
     text-align: center;
     position: relative;
-    right: 160px;
+    right: 33%;
+    font-weight: bold;
+}
+.perso2 p{
+    position:relative;
+    left:20%;
+    bottom: 40.5px;
+    font-weight: bold; 
 }
 /*.perso2{
     position: relative;
@@ -70,8 +85,14 @@ nav{
     position: relative;
     left:109px;
 }
-#foot{
+footer{
     display: flex;
+    flex-direction: column;
+    width:100%;
+}
+#foot{
+    width:100%;
+    height: auto;
     background-image: url("images/sable.jpg");
     background-repeat: no-repeat;
     height: 220px;
