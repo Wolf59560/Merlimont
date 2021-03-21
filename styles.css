@@ -1,8 +1,12 @@
 #allinfo img{
     cursor: url(https://cur.cursors-4u.net/nature/nat-2/nat195.cur), auto !important;
 }
-
-
+#allinfo{
+    margin-left: 7%;
+}
+#carou{
+    margin-left: 6.5%;
+}
 
 body {
     height:auto; /* Used to enable scrolling */
@@ -101,12 +105,12 @@ nav{
 .descriptperso p{
     text-align: center;
     position: relative;
-    right: 33%;
+    right: 25%;
     font-weight: bold;
 }
 .perso2 p{
     position:relative;
-    left:20%;
+    left:26%;
     bottom: 40.5px;
     font-weight: bold; 
 }
@@ -184,6 +188,7 @@ footer{
         top: 6px;
         line-height: 33%;
         color: rgb(0, 0, 0);
+        margin-bottom: 20px;
     }
     #co{
         font-size: 1.5rem;
@@ -205,7 +210,7 @@ footer{
     #rsociaux a{
         text-decoration: none;
         position: relative;
-        top: 2px;
+        bottom: 17px;
         left: 10px;
         color: black;
     }
@@ -215,6 +220,10 @@ footer{
     #rsociaux #tweet{
         position: relative;
         left: 15px;
+    }
+    #imgt{
+        position: relative;
+        left: 18px;
     }
     #rsociaux #fb{
         position: relative;
@@ -240,7 +249,54 @@ footer{
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
-    @media (min-width: 1024px) and (max-width: 1600px){
+    @media (min-width: 375px) and (max-width: 424px)
+    {
+        #allinfo{
+            margin-left: 13%;
+        }
+    }
+    @media (min-width: 425px) and (max-width: 767px)
+    {
+        .picture{
+            display: none;
+        }
+        #allinfo{
+            margin-left: 16.5%;
+        }
+        #rsociaux{
+            margin-left: 6%;
+        }
+    }
+    @media( min-width: 768px) and (max-width: 1023px)
+    {
+        .picture{
+            display: none;
+        }
+        #allinfo{
+            margin-right: 8.5%;
+        }
+        .info{
+            flex-direction: row;
+        }
+        .descriptperso{
+            margin-right: 16%;
+        }
+        .perso2{
+            margin-left: 16%;
+        }
+        #rsociaux{
+            margin-left: 25%;
+        }
+        #rsociaux a{
+         
+            bottom: 6px;
+        }
+        
+           
+        
+    }
+    @media (min-width: 1024px) and (max-width: 1600px)
+    {
      .perso2{
        display: inline-block;
 
