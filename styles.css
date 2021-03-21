@@ -1,6 +1,18 @@
+#allinfo img{
+    cursor: url(https://cur.cursors-4u.net/nature/nat-2/nat195.cur), auto !important;
+}
+
+
+
+body {
+    height:auto; /* Used to enable scrolling */
+    background: linear-gradient(55deg, #0fb8ad 0%, yellow 51%, #2cb5e8 85%);
+   
+  }
+
 .footer{
     display: flex;
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -32,10 +44,31 @@
     position: relative;
     right: 3%;
     margin-top:5%;
+    z-index: -1;
 }
 .nav{
+    
     position:relative;
     bottom:67px;
+    
+}
+#vive{
+    display: none;
+}
+#vive:hover{
+   display: inline;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 35px;
+    font-size: 15px;
+}
+header{
+    position: sticky;
+    top: 0px;
+   width: 100%;
+   z-index: 99;
 }
 #picli{
     position:relative;
@@ -148,7 +181,6 @@ footer{
         display: flex;
         flex-direction: column;
         position: relative;
-        left: -11px;
         top: 6px;
         line-height: 33%;
         color: rgb(0, 0, 0);
@@ -164,7 +196,8 @@ footer{
     #rsociaux{
         display: flex;
         position: relative;
-        left: 47px;  
+        left: 72px;  
+        width: 50%;
     }
     #rsociaux1{
       margin-right: 10px;
@@ -209,12 +242,12 @@ footer{
     }
     @media (min-width: 1024px) and (max-width: 1600px){
      .perso2{
-         position:relative;
-         left:13.5%;
-         bottom:40px;
+       display: inline-block;
 
      }
-        
+     .descriptperso p ,.perso2 p{
+         z-index: -1;
+     }   
      
     }
     
