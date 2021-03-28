@@ -1,3 +1,11 @@
+iframe{
+    width: 85%;
+    margin-top: 25px;
+    margin-left: 7.5%;
+    border: 1px solid black !important;
+   border-radius: 5%;
+
+}
 #allinfo img{
     cursor: url(https://cur.cursors-4u.net/nature/nat-2/nat195.cur), auto !important;
 }
@@ -254,6 +262,10 @@ footer{
         #allinfo{
             margin-left: 13%;
         }
+        iframe{
+            width: 70%;
+            margin-left: 15%;
+        }
     }
     @media (min-width: 425px) and (max-width: 767px)
     {
@@ -265,6 +277,10 @@ footer{
         }
         #rsociaux{
             margin-left: 6%;
+        }
+        iframe{
+            width: 70%;
+            margin-left: 15%;
         }
     }
     @media( min-width: 768px) and (max-width: 1023px)
@@ -291,7 +307,11 @@ footer{
          
             bottom: 6px;
         }
-        
+        iframe{
+            width: 60%;
+            height: 300px;
+            margin-left: 19.5%;
+        }
            
         
     }
@@ -304,6 +324,34 @@ footer{
      .descriptperso p ,.perso2 p{
          z-index: -1;
      }   
-     
+    .picture{
+        position: relative;
+        left: 20.5%;
+    } 
+    #carou{
+        margin-left: 10.5%;
+    }
+    .info{
+        flex-direction: row;
+        position: relative;
+        right: 6%;
+    }
+    .imap{
+        margin-right: 3%;
+    }
+    iframe{
+        width: 50%;
+        height: 400px;
+        margin-left: 25%;
+    }
+    #rsociaux{
+        margin-left: 36.5%;
+    }
+    #tweet,#fb{
+        
+       bottom: 4.5px !important; 
+        
+    }
+
     }
     
