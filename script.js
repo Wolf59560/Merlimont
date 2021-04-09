@@ -6,7 +6,7 @@
 
 //j'instencie un objet audio que je mert dans une variable//
     var music = new Audio('son/vagues.mp3');
-    var canard = new Audio('son/coin.mp3');
+    var corneille = new Audio('son/corneille.mp3');
 
 //La variable music utilise la methode loop//
     //music.loop=true;
@@ -17,16 +17,16 @@
     item1.addEventListener("mouseover", playMusic);
     item1.addEventListener("mouseout", stopMusic);
 
-    item2.addEventListener("click", coin);
+    item2.addEventListener("click", bird);
 
-    item3.addEventListener("click",coin);
+    item3.addEventListener("click",bird);
    
 //fonctions jouant et stopant les differents son//
     function playMusic() {
         music.play();
     }
-    function coin() {
-        canard.play();
+    function bird() {
+        corneille.play();
     }
 
     function stopMusic() {

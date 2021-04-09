@@ -21,7 +21,7 @@ iframe {
 body {
     height: auto;
     /* Used to enable scrolling */
-    background: linear-gradient(55deg, #0fb8ad 0%, yellow 51%, #2cb5e8 85%);
+    background: linear-gradient(55deg, #4AA0A1 0%, #F2FCFD 51%, #57A8AC 85%);
 }
 
 .footer {
@@ -355,6 +355,9 @@ footer {
         height: 300px;
         margin-left: 19.5%;
     }
+    .info2{
+        flex-direction: row-reverse;
+    }
 }
 @media screen and (width: 1024px){
     #carou{
@@ -367,6 +370,9 @@ footer {
     #rsociaux{
         position: relative;
         left: 2%;
+    }
+    .info2{
+        flex-direction: row-reverse;
     }
 }
 @media (min-width: 1024px) and (max-width: 1600px) {
@@ -403,6 +409,8 @@ footer {
     #tweet, #fb {
         bottom: 4.5px !important;
     }
-    
+    .info2{
+        flex-direction: row-reverse;
+    }
     
 }
