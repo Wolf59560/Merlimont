@@ -32,5 +32,19 @@
     function stopMusic() {
         music.pause();
     }
-
-
+    document.onclick = coord;
+    function coord(e){
+      console.log("Les coordonees x de ma souris sont  "+ e.clientX + " et "+" Les coordonees y de ma souris sont "+ e.clientY);
+    }
+     document.onclick = toto;
+     function toto(e) {
+     var x = e.clientX;
+     var y = e.clientY;
+     var bob = document.getElementById("bob");
+     if (x>1216    && y>193  ){
+      bob.style.display = '';
+     }else
+     {
+      bob.style.display = 'none';
+     }
+ }

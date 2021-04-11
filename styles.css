@@ -1,3 +1,6 @@
+#bobep{
+    display: none;
+}
 iframe {
     width: 85%;
     margin-top: 25px;
@@ -412,5 +415,15 @@ footer {
     .info2{
         flex-direction: row-reverse;
     }
-    
+    #bobep{
+        display: block;
+        width:35%;
+        position: relative;
+        left:65%;
+    }
+    #but{
+        position: relative;
+        bottom:85px;
+        left:59%
+    }
 }
