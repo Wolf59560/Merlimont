@@ -40,8 +40,8 @@
      function toto(e) {
      var x = e.clientX;
      var y = e.clientY;
-     var bob = document.getElementById("bob");
-     if (x>1216    && y>193  ){
+     var bob = document.getElementById("bobep");
+     if (x<1280    && y>344  ){
       bob.style.display = '';
      }else
      {
