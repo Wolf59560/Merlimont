@@ -1,6 +1,7 @@
-#bobep{
+#bobep {
     display: none;
 }
+
 iframe {
     width: 85%;
     margin-top: 25px;
@@ -124,7 +125,6 @@ nav {
 .info {
     margin-top: 10px;
     flex-direction: column;
-    
 }
 
 .last {
@@ -316,8 +316,6 @@ footer {
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
-    
-    
     #allinfo {
         margin-left: 22%;
     }
@@ -331,10 +329,21 @@ footer {
 }
 
 @media( min-width: 768px) and (max-width: 1023px) {
-    
-    .picture{
+    @font-face {
+        font-family: "sw";
+        src: url(Font/seawave.ttf) format("truetype");
+    }
+    .picture {
+        background: linear-gradient(0.25turn, #0cc5c5, #ebf8e1, #21d2df);
+        background-clip: text;
+        color: transparent;
+        -webkit-background-clip: text;
+        font-family: "sw";
         position: relative;
-        left: 17%;
+        left: 5%;
+        top: 5px;
+        font-size: 3vw;
+        font-weight: bold;
     }
     #allinfo {
         margin-right: 8.5%;
@@ -359,35 +368,52 @@ footer {
         height: 300px;
         margin-left: 19.5%;
     }
-    .info2{
+    .info2 {
         display: flex;
         flex-direction: row-reverse;
     }
 }
-@media screen and (width: 1024px){
-    #carou{
+
+@media screen and (width: 1024px) {
+    @font-face {
+        font-family: "sw";
+        src: url(Font/seawave.ttf) format("truetype");
+    }
+    #carou {
         position: relative;
         right: 7%;
     }
-    .picture{
+    .picture {
+        background: linear-gradient(0.25turn, #0cc5c5, #ebf8e1, #21d2df);
+        background-clip: text;
+        color: transparent;
+        -webkit-background-clip: text;
+        font-family: "sw";
         position: relative;
-        left: 23% !important;
+        left: 10%!important;
+        top: 5px;
+        font-size: 3vw!important;
+        font-weight: bold;
     }
-    
-    #rsociaux{
+    #rsociaux {
         position: relative;
         left: 2%;
     }
-    .info2{
+    .info2 {
         display: flex;
         flex-direction: row-reverse;
         margin-right: 12%;
     }
-    .para{
+    .para {
         margin-right: 4.5%;
     }
 }
+
 @media (min-width: 1024px) and (max-width: 1600px) {
+    @font-face {
+        font-family: "sw";
+        src: url(Font/seawave.ttf) format("truetype");
+    }
     .perso2 {
         display: inline-block;
     }
@@ -395,9 +421,16 @@ footer {
         z-index: -1;
     }
     .picture {
+        background: linear-gradient(0.25turn, #0cc5c5, #ebf8e1, #21d2df);
+        background-clip: text;
+        color: transparent;
+        -webkit-background-clip: text;
+        font-family: "sw";
         position: relative;
-        left: 30.5%;
-        font-size: 2vw;
+        left: 14%!important;
+        top: 5px;
+        font-size: 3vw!important;
+        font-weight: bold;
     }
     #carou {
         margin-left: 10.5%;
@@ -422,24 +455,23 @@ footer {
     #tweet, #fb {
         bottom: 4.5px !important;
     }
-    .info2{
+    .info2 {
         display: flex;
         flex-direction: row-reverse;
         margin-right: 12.5%;
     }
-    .para{
+    .para {
         margin-right: 4.5%;
     }
-    #bobep{
+    #bobep {
         display: block;
-        width:35%;
+        width: 35%;
         position: relative;
-        left:65%;
+        left: 65%;
     }
-    #but{
+    #but {
         position: relative;
-        bottom:85px;
-        left:59%
+        bottom: 85px;
+        left: 59%
     }
-    
 }
